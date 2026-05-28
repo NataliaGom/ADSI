@@ -51,6 +51,9 @@ Sofía es una estudiante dedicada que tiene clases desde las 7:00 a.m. Cada mañ
 
 > _"No entiendo por qué tengo que hacer fila 15 minutos para un café que tarda 2 minutos en prepararse. Si pudiera pedirlo desde el camión, llegaría al salón tranquila."_
 
+## Referencia de persona hecha con UXPressia
+![Persona: Sofía_UX](img/Sofia_Ramirez.png)
+
 ---
 
 ## Escenario de uso
