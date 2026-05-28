@@ -13,7 +13,7 @@ Tras aplicar las iteraciones iniciales, se realizó una **prueba de navegación 
 | Acceso al sistema (Login) | Flujo directo, 100% de éxito en el paso inicial | Sí |
 | Selección de producto base | Clics concentrados directamente en el ítem deseado | Sí |
 | Cierre del flujo de pago | Pasos finales (5 y 6) con 100% de efectividad y rapidez | Sí |
-| Interacción con Apple ID | Procesamiento del pago intuitivo y sin desviaciones | Sí |
+| Interacción | Procesamiento del pago intuitivo y sin desviaciones | Sí |
 
 ---
 
@@ -21,7 +21,7 @@ Tras aplicar las iteraciones iniciales, se realizó una **prueba de navegación 
 
 ### Lo que funcionó bien
 
-* **La eficiencia de las pantallas extremas:** El inicio de sesión (Paso 1) y la pantalla de éxito final (Paso 6) funcionaron de manera impecable, registrando un 100% de clics correctos y tiempos de respuesta muy bajos (entre 2 y 5 segundos).
+* **La eficiencia de las pantallas:** El inicio de sesión (Paso 1) y la pantalla de éxito final (Paso 6) funcionaron de manera impecable, registrando un 100% de clics correctos y tiempos de respuesta muy bajos (entre 2 y 5 segundos).
 * **Velocidad de ejecución ideal:** Aquellos usuarios que lograron completar el flujo sin desviarse lo hicieron en un tiempo sobresaliente (promedio de 20 segundos totales), lo que demuestra que la arquitectura de la ruta crítica es veloz.
 * **Percepción subjetiva de facilidad:** De manera unánime (100%), los usuarios declararon no haber sentido confusión con ninguna pantalla, lo que indica que la interfaz se siente familiar y amigable a primera vista.
 
@@ -31,13 +31,13 @@ Tras aplicar las iteraciones iniciales, se realizó una **prueba de navegación 
 
 | # | Problema | Severidad | Frecuencia | Pantalla |
 | --- | --- | --- | --- | --- |
-| 1 | **Caída crítica en el embudo (Selección de Tamaño):** El éxito cae al 50% en los pasos 3 y 4 debido a la confusión entre variantes del producto en la misma cuadrícula. | 3 | 3/5 usuarios | Principal / Menú |
+| 1 | **Caída selección de producto:** El éxito cae al 50% en los pasos 3 y 4 debido a la confusión entre variantes del producto en la misma cuadrícula. | 3 | 3/5 usuarios | Principal / Menú |
 | 2 | **Tipografía / Tamaño de letra reducido:** Los textos de las variantes son demasiado pequeños, lo que propició que se eligiera el tamaño equivocado del café por error. | 2 | 1/5 usuarios | Principal / Menú |
 | 3 | **Fricción por micro-interacciones en el tiempo:** El mapa de calor muestra una saturación excesiva de clics en las flechas y el selector manual AM/PM para la hora de recogida. | 2 | 5/5 usuarios | Resumen de orden |
 | 4 | **Riesgo por proximidad de acciones:** El botón "Modificar mi pedido" tiene un peso visual alto y está demasiado cerca de "Confirmar", amenazando con desvíos accidentales. | 2 | Observado en mapa de calor | Confirmación de orden |
-| 5 | **La paradoja del error invisible:** Los usuarios cometen errores de selección (variante errónea) pero su percepción es de "cero confusión", ocultando el fallo operativo. | 2 | 5/5 usuarios | Global |
+| 5 | **Error invisible:** Los usuarios cometen errores de selección (variante errónea) pero su percepción es de "cero confusión", ocultando el fallo operativo. | 2 | 5/5 usuarios | Global |
 
-> **Severidad:** 1 = Cosmético, 2 = Problema de usabilidad, 3 = Bloqueador
+> **Severidad:** 1 = Estético , 2 = Problema de usabilidad, 3 = Bloqueo
 
 ---
 
