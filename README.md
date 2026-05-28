@@ -95,7 +95,7 @@ ADSI/
 
 > _Aniel Sophia Orihuela Villegas - 000212431_
 
-> _Rodrigo Flores Covarrubias - 000217893_
+> _Natalia Gómez Alvarez - 000195501_
 
 ---
 
