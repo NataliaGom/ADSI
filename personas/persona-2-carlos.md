@@ -56,3 +56,6 @@ Carlos es profesor de tiempo completo con grupos de 30 a 40 estudiantes. Llega a
 ## Escenario de uso
 
 Carlos llega al estacionamiento a las 6:45 a.m. Antes de bajar del auto abre **CafItamita**, selecciona su pedido habitual (americano grande, sin azúcar), elige pagar en efectivo al recoger y confirma entrega para las 7:55 a.m. (su receso entre clases). La app le manda una notificación cuando el café está listo y él pasa a recogerlo en el inter.
+
+## Referencia de persona hecha con UXPressia
+![Persona: Carlos_UX](img/Carlos_Mendoza.png)
