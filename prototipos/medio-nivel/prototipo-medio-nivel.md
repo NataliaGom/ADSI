@@ -8,7 +8,7 @@ El prototipo de medio nivel incorpora las mejoras estructurales e interactivas i
 
 ## Enlace al prototipo
 
-[Ver prototipo de medio nivel en Moqups](https://app.moqups.com/ZmagLNrVttPI8GlAS684ResvdvK48jwu/view/page/a69490639)
+[Ver prototipo de medio nivel en Moqups](https://app.moqups.com/ZmagLNrVttPI8GlAS684ResvdvK48jwu/view/page/a5b6e3308)
 
 *El enlace te lleva al prototipo interactivo navegable donde puedes explorar el flujo completo de compra.*
 
