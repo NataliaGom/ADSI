@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Customer Journey Map — CafItamita</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #faf7f2; color: #2d2d2d; padding: 32px 20px; }
+
+    h1 { text-align: center; font-size: 1.8rem; color: #5c3d1e; margin-bottom: 6px; }
+    .subtitle { text-align: center; color: #8a6a4a; font-size: 0.95rem; margin-bottom: 8px; }
+    .persona-tag { text-align: center; margin-bottom: 32px; }
+    .persona-tag span { background: #e8c4a0; color: #5c3d1e; padding: 4px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin: 0 4px; display: inline-block; }
+
+    .journey { overflow-x: auto; }
+    table { width: 100%; min-width: 900px; border-collapse: collapse; }
+
+    thead th { background: #5c3d1e; color: #fff; padding: 12px 10px; font-size: 0.88rem; text-align: center; border: 1px solid #4a3015; }
+    thead th:first-child { background: #3a2510; width: 130px; }
+
+    td.row-label { background: #3a2510; color: #fff; font-weight: 700; font-size: 0.82rem; text-align: center; padding: 14px 8px; vertical-align: middle; }
+    td { border: 1px solid #ddd; padding: 12px 10px; vertical-align: top; font-size: 0.84rem; background: #fff; }
+
+    .phase-name { font-weight: 700; text-align: center; font-size: 0.9rem; color: #5c3d1e; }
+
+    .emotion-label { text-align: center; font-size: 0.82rem; color: #444; padding: 6px 0; font-weight: 600; }
+
+    .touchpoint { background: #e8f4fd; border-radius: 6px; padding: 5px 8px; margin: 3px 0; font-size: 0.8rem; color: #1a3a5c; }
+
+    .action-item { margin: 3px 0; padding-left: 10px; position: relative; font-size: 0.82rem; }
+    .action-item::before { content: "▸"; position: absolute; left: 0; color: #8a6a4a; }
+
+    .pain { background: #fdecea; border-left: 3px solid #e53935; padding: 5px 8px; border-radius: 0 6px 6px 0; margin: 3px 0; font-size: 0.8rem; color: #7a1a1a; }
+    .opportunity { background: #e8f5e9; border-left: 3px solid #43a047; padding: 5px 8px; border-radius: 0 6px 6px 0; margin: 3px 0; font-size: 0.8rem; color: #1b5e20; }
+
+    .curve-section { margin-top: 40px; background: #fff; border-radius: 12px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .curve-section h2 { font-size: 1rem; color: #5c3d1e; margin-bottom: 16px; }
+    svg { width: 100%; height: 120px; }
+
+    .legend { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 24px; font-size: 0.82rem; }
+    .legend-item { display: flex; align-items: center; gap: 6px; }
+    .legend-dot { width: 12px; height: 12px; border-radius: 50%; }
+  </style>
+</head>
+<body>
+
+<h1>Customer Journey Map — CafItamita</h1>
+<p class="subtitle">Recorrido del usuario al programar un pedido de café antes de clase</p>
+<div class="persona-tag">
+  <span>Sofia (Estudiante)</span>
+  <span>Carlos (Docente)</span>
+  <span>Ana (Trabajador-estudiante)</span>
+</div>
+
+<div class="journey">
+<table>
+  <thead>
+    <tr>
+      <th>Dimension</th>
+      <th>
+        <span class="phase-name">1. Consciencia</span>
+        <br/><small>Se entera de la app</small>
+      </th>
+      <th>
+        <span class="phase-name">2. Descarga</span>
+        <br/><small>Instala y registra</small>
+      </th>
+      <th>
+        <span class="phase-name">3. Exploracion</span>
+        <br/><small>Revisa el menu</small>
+      </th>
+      <th>
+        <span class="phase-name">4. Pedido</span>
+        <br/><small>Elige y personaliza</small>
+      </th>
+      <th>
+        <span class="phase-name">5. Pago</span>
+        <br/><small>Selecciona metodo</small>
+      </th>
+      <th>
+        <span class="phase-name">6. Programacion</span>
+        <br/><small>Confirma hora</small>
+      </th>
+      <th>
+        <span class="phase-name">7. Espera</span>
+        <br/><small>Notificacion de listo</small>
+      </th>
+      <th>
+        <span class="phase-name">8. Recepcion</span>
+        <br/><small>Recoge el cafe</small>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <!-- ACCIONES DEL USUARIO -->
+    <tr>
+      <td class="row-label">Acciones del usuario</td>
+      <td>
+        <div class="action-item">Ve cartel en cafeteria o escucha de un companero</div>
+        <div class="action-item">Busca la app en la tienda</div>
+      </td>
+      <td>
+        <div class="action-item">Descarga la app</div>
+        <div class="action-item">Crea cuenta con correo institucional</div>
+        <div class="action-item">Configura perfil y metodo de pago</div>
+      </td>
+      <td>
+        <div class="action-item">Navega por categorias del menu</div>
+        <div class="action-item">Lee descripcion de bebidas</div>
+        <div class="action-item">Filtra por precio o categoria</div>
+      </td>
+      <td>
+        <div class="action-item">Selecciona bebida y extras</div>
+        <div class="action-item">Personaliza (tamano, leche, azucar)</div>
+        <div class="action-item">Agrega al carrito</div>
+      </td>
+      <td>
+        <div class="action-item">Ve resumen del pedido</div>
+        <div class="action-item">Elige entre efectivo, tarjeta o QR</div>
+        <div class="action-item">Confirma pago</div>
+      </td>
+      <td>
+        <div class="action-item">Ve horarios disponibles segun su clase</div>
+        <div class="action-item">Selecciona hora de entrega</div>
+        <div class="action-item">Confirma pedido</div>
+      </td>
+      <td>
+        <div class="action-item">Va a clases normalmente</div>
+        <div class="action-item">Recibe notificacion "Tu cafe esta listo"</div>
+        <div class="action-item">Ve tiempo estimado en la app</div>
+      </td>
+      <td>
+        <div class="action-item">Va a la cafeteria en el receso</div>
+        <div class="action-item">Muestra codigo QR o nombre</div>
+        <div class="action-item">Recibe su pedido y lo evalua</div>
+      </td>
+    </tr>
+
+    <!-- TOUCHPOINTS -->
+    <tr>
+      <td class="row-label">Puntos de contacto</td>
+      <td>
+        <div class="touchpoint">Cartel fisico cafeteria</div>
+        <div class="touchpoint">Recomendacion de companeros</div>
+        <div class="touchpoint">Redes sociales del campus</div>
+      </td>
+      <td>
+        <div class="touchpoint">App Store / Google Play</div>
+        <div class="touchpoint">Correo de verificacion</div>
+        <div class="touchpoint">Pantalla de onboarding</div>
+      </td>
+      <td>
+        <div class="touchpoint">Pantalla de menu</div>
+        <div class="touchpoint">Buscador / filtros</div>
+        <div class="touchpoint">Fotos y descripciones</div>
+      </td>
+      <td>
+        <div class="touchpoint">Pantalla de producto</div>
+        <div class="touchpoint">Opciones de personalizacion</div>
+        <div class="touchpoint">Carrito de compras</div>
+      </td>
+      <td>
+        <div class="touchpoint">Resumen del pedido</div>
+        <div class="touchpoint">Pasarela de pago</div>
+        <div class="touchpoint">Confirmacion de pago</div>
+      </td>
+      <td>
+        <div class="touchpoint">Selector de horario</div>
+        <div class="touchpoint">Integracion con horario de clases</div>
+        <div class="touchpoint">Confirmacion por notificacion</div>
+      </td>
+      <td>
+        <div class="touchpoint">Notificacion push</div>
+        <div class="touchpoint">Pantalla de estado del pedido</div>
+        <div class="touchpoint">Contador de tiempo</div>
+      </td>
+      <td>
+        <div class="touchpoint">Mostrador de cafeteria</div>
+        <div class="touchpoint">Codigo QR de recogida</div>
+        <div class="touchpoint">Pantalla de evaluacion</div>
+      </td>
+    </tr>
+
+    <!-- EMOCIONES -->
+    <tr>
+      <td class="row-label">Estado emocional</td>
+      <td><div class="emotion-label">Curioso / Esceptico</div></td>
+      <td><div class="emotion-label">Esperanzado</div></td>
+      <td><div class="emotion-label">Interesado</div></td>
+      <td><div class="emotion-label">Entusiasmado</div></td>
+      <td><div class="emotion-label" style="color:#b71c1c;">Algo inseguro</div></td>
+      <td><div class="emotion-label">Tranquilo</div></td>
+      <td><div class="emotion-label">Relajado</div></td>
+      <td><div class="emotion-label" style="color:#1b5e20;">Satisfecho</div></td>
+    </tr>
+
+    <!-- PAIN POINTS -->
+    <tr>
+      <td class="row-label">Puntos de dolor</td>
+      <td><div class="pain">No sabe si la app es confiable</div></td>
+      <td><div class="pain">Registro largo o tedioso</div><div class="pain">Pide demasiados permisos</div></td>
+      <td><div class="pain">Menu sin fotos o sin precios claros</div><div class="pain">No indica disponibilidad en tiempo real</div></td>
+      <td><div class="pain">Pocas opciones de personalizacion</div><div class="pain">Proceso de edicion confuso</div></td>
+      <td><div class="pain">Metodos de pago limitados</div><div class="pain">Proceso de pago inseguro o lento</div></td>
+      <td><div class="pain">Horarios no coinciden con sus clases reales</div><div class="pain">No hay opcion de cambiar la hora despues</div></td>
+      <td><div class="pain">Notificacion llega tarde o no llega</div><div class="pain">No sabe donde recoger exactamente</div></td>
+      <td><div class="pain">Fila para recoger (derrota el proposito)</div><div class="pain">Pedido incorrecto o frio</div></td>
+    </tr>
+
+    <!-- OPORTUNIDADES -->
+    <tr>
+      <td class="row-label">Oportunidades de mejora</td>
+      <td><div class="opportunity">Testimonios visibles de usuarios reales</div></td>
+      <td><div class="opportunity">Registro con 1 clic (Google/correo institucional)</div></td>
+      <td><div class="opportunity">Indicador de "disponible hoy" en cada item</div></td>
+      <td><div class="opportunity">Guardar pedidos favoritos para reordenar rapido</div></td>
+      <td><div class="opportunity">Recordar metodo de pago preferido</div></td>
+      <td><div class="opportunity">Sugerir horario optimo segun horario de clases del usuario</div></td>
+      <td><div class="opportunity">Notificacion con ubicacion del punto de recogida</div></td>
+      <td><div class="opportunity">Sistema de calificacion rapido (1 tap)</div></td>
+    </tr>
+
+  </tbody>
+</table>
+</div>
+
+<!-- Curva de emocion -->
+<div class="curve-section">
+  <h2>Curva de emocion del usuario</h2>
+  <svg viewBox="0 0 880 120" xmlns="http://www.w3.org/2000/svg">
+    <line x1="0" y1="60" x2="880" y2="60" stroke="#eee" stroke-width="1"/>
+    <line x1="0" y1="20" x2="880" y2="20" stroke="#eee" stroke-width="1" stroke-dasharray="4"/>
+    <line x1="0" y1="100" x2="880" y2="100" stroke="#eee" stroke-width="1" stroke-dasharray="4"/>
+
+    <text x="2" y="18" font-size="9" fill="#aaa">Muy positivo</text>
+    <text x="2" y="62" font-size="9" fill="#aaa">Neutral</text>
+    <text x="2" y="104" font-size="9" fill="#aaa">Muy negativo</text>
+
+    <polyline
+      points="55,60 165,48 275,38 385,28 495,78 605,35 715,32 825,20"
+      fill="none"
+      stroke="#c0622a"
+      stroke-width="3"
+      stroke-linejoin="round"
+    />
+
+    <circle cx="55"  cy="60" r="5" fill="#c0622a"/>
+    <circle cx="165" cy="48" r="5" fill="#c0622a"/>
+    <circle cx="275" cy="38" r="5" fill="#c0622a"/>
+    <circle cx="385" cy="28" r="5" fill="#c0622a"/>
+    <circle cx="495" cy="78" r="5" fill="#e53935"/>
+    <circle cx="605" cy="35" r="5" fill="#c0622a"/>
+    <circle cx="715" cy="32" r="5" fill="#c0622a"/>
+    <circle cx="825" cy="20" r="5" fill="#43a047"/>
+
+    <text x="40"  y="115" font-size="8" fill="#888" text-anchor="middle">Consciencia</text>
+    <text x="165" y="115" font-size="8" fill="#888" text-anchor="middle">Descarga</text>
+    <text x="275" y="115" font-size="8" fill="#888" text-anchor="middle">Exploracion</text>
+    <text x="385" y="115" font-size="8" fill="#888" text-anchor="middle">Pedido</text>
+    <text x="495" y="115" font-size="8" fill="#e53935" text-anchor="middle" font-weight="bold">Pago *</text>
+    <text x="605" y="115" font-size="8" fill="#888" text-anchor="middle">Programacion</text>
+    <text x="715" y="115" font-size="8" fill="#888" text-anchor="middle">Espera</text>
+    <text x="825" y="115" font-size="8" fill="#43a047" text-anchor="middle">Recepcion</text>
+  </svg>
+
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:#e53935"></div> Punto critico de dolor (etapa de Pago)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#43a047"></div> Punto de mayor satisfaccion (Recepcion exitosa)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#c0622a"></div> Etapa neutra / positiva</div>
+  </div>
+</div>
+
+<p style="text-align:center; color:#aaa; font-size:0.78rem; margin-top:24px;">CafItamita — ADSI 2026</p>
+
+</body>
+</html>
