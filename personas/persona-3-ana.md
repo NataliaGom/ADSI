@@ -56,3 +56,7 @@ Ana combina trabajo y estudio. Sale de su trabajo a las 5:30 p.m. y llega al cam
 ## Escenario de uso
 
 A las 5:15 p.m., mientras espera el transporte para ir al campus, Ana abre **CafItamita**, revisa el menú del turno nocturno, elige un café con leche y una empanada, paga con su billetera digital y programa la entrega para las 7:30 p.m. (receso). Al llegar a clase solo piensa en estudiar; a las 7:30 sale 2 minutos, recoge su pedido y regresa.
+
+## Referencia de persona hecha con UXPressia
+![Persona: Ana](img/Ana_Torres.png)
+
