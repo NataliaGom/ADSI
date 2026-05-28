@@ -8,9 +8,13 @@ Este documento detalla el estado actual del proyecto en Figma, incluyendo las pa
 
 ---
 
-## Enlace al prototipo
+## Enlace al prototipo (edición)
 
 [Ver prototipo de alto nivel en Figma](https://www.figma.com/design/keElFiUf8VfTBEKjNmmz0M)
+
+## Enlace al prototipo (interacción)
+
+[Interactuar con el prototipo](https://www.figma.com/proto/keElFiUf8VfTBEKjNmmz0M/Coffee-Ordering-App?node-id=5-2&p=f&t=MyRUMeuLcHXHVfPE-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A2)
 
 *El archivo contiene 7 pantallas diseñadas en alta fidelidad con componentes reutilizables, un sistema de colores consistente y navegación entre estados de la aplicación.*
 
