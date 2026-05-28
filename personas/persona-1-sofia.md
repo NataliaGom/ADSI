@@ -10,7 +10,7 @@
 | **Edad** | 20 años |
 | **Ocupación** | Estudiante de Ingeniería en Sistemas, 4° semestre |
 | **Ubicación** | Vive a 45 minutos del campus en transporte público |
-| **Tecnología** | Alta — usa smartphone constantemente, nativa digital |
+| **Tecnología** | Alta: usa smartphone constantemente, nativa digital |
 
 ---
 

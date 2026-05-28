@@ -146,16 +146,6 @@ Funcionalidades implementadas (en Figma):
 - Selección de método de pago
 - Time picker para hora de recogida
 
-Pendiente de desarrollo:
-- Interactividad real (prototipo Figma sin transiciones Smart Animate aún)
-- Integración con backend
-- Base de datos de productos
-- Sistema de autenticación
-- Procesamiento de pagos
-- Notificaciones push
-- Historial de pedidos
-- Sistema de evaluación post-pedido
-
 ---
 
 ## Notas de entrega
@@ -167,11 +157,3 @@ Pendiente de desarrollo:
 - La barra de navegación es consistente en todas las pantallas excepto la de éxito
 
 ---
-
-## Próximos pasos recomendados
-
-1. Convertir componentes en símbolos Figma con variantes (si no está hecho)
-2. Agregar transiciones Smart Animate entre pantallas en modo prototipo
-3. Realizar pruebas de usabilidad con usuarios finales
-4. Iterar basado en feedback (especialmente en el time picker y barra de búsqueda)
-5. Preparar handoff a desarrolladores con especificaciones CSS/medidas
