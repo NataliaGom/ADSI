@@ -2,7 +2,7 @@
 
 ## Contexto
 
-Tras aplicar las iteraciones iniciales, se realizó una **prueba de navegación cuantitativa y visual** utilizando un prototipo digital interactivo en Figma con una muestra de 5 participantes. La tarea crítica evaluada fue: *"Inicia sesión, selecciona un capuccino mediano y paga por él con tu Apple ID"*. Esto permitió medir la efectividad del flujo, identificar puntos de fuga en el embudo de conversión y analizar el comportamiento visual mediante mapas de calor.
+Tras aplicar las iteraciones iniciales, se realizó una **prueba de navegación cuantitativa y visual** utilizando un prototipo digital interactivo en Lyssna con una muestra de 5 participantes. La tarea crítica evaluada fue: *"Inicia sesión, selecciona un capuccino mediano y paga por él con tu Apple ID"*. Esto permitió medir la efectividad del flujo, identificar puntos de fuga en el embudo de conversión y analizar el comportamiento visual mediante mapas de calor.
 
 ---
 
@@ -62,4 +62,4 @@ Tras aplicar las iteraciones iniciales, se realizó una **prueba de navegación 
 
 ## Conclusión
 
-La prueba cuantitativa reveló que aunque la estructura y el concepto general de **CafItamita** resultan sumamente atractivos y cómodos para el usuario, el diseño de interfaz actual genera errores silenciosos. La drástica caída en los pasos intermedios demuestra que la selección de producto y tamaño debe separarse. El prototipo de alto nivel se concentrará en limpiar el menú principal, implementar la selección mediante modales y optimizar el selector de tiempo para transformar esa buena percepción subjetiva en una tasa de éxito real mucho más alta.
+La prueba cuantitativa reveló que aunque la estructura y el concepto general de **CafItamita** resultan sumamente atractivos y cómodos para el usuario, el diseño de interfaz actual genera errores silenciosos. La drástica caída en los pasos intermedios demuestra que la selección de producto y tamaño debe separarse. El prototipo de alto nivel se concentrará en limpiar el menú principal, implementar la selección de una forma más limpia y optimizar el selector de tiempo para transformar esa buena percepción subjetiva en una tasa de éxito real mucho más alta.
