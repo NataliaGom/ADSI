@@ -2,7 +2,7 @@
 
 ## Contexto
 
-Tras aplicar las iteraciones iniciales, se realizó una **prueba de navegación cuantitativa y visual** utilizando un prototipo digital interactivo en Lyssna con una muestra de 5 participantes. La tarea crítica evaluada fue: *"Inicia sesión, selecciona un capuccino mediano y paga por él con tu Apple ID"*. Esto permitió medir la efectividad del flujo, identificar puntos de fuga en el embudo de conversión y analizar el comportamiento visual mediante mapas de calor.
+Tras aplicar las iteraciones iniciales, se realizó una **prueba de navegación cuantitativa y visual** utilizando un prototipo digital interactivo en Lyssna con una muestra de 5 participantes. [Ver resultados de prueba de medio nivel en Lyssna.](https://app.lyssna.com/tests/ktd9rjsieicy/results/hkczin5jsg1q) La tarea crítica evaluada fue: *"Inicia sesión, selecciona un capuccino mediano y paga por él con tu Apple ID"*. Esto permitió medir la efectividad del flujo, identificar puntos de fuga en el embudo de conversión y analizar el comportamiento visual mediante mapas de calor.
 
 ---
 
